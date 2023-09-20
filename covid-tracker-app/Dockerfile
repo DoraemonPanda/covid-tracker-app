@@ -1,4 +1,4 @@
 FROM openjdk:11
-COPY src/CovidTrackerAppApplication-0.0.1-SNAPSHOT.jar CovidTrackerAppApplication-0.0.1-SNAPSHOT.jar
+COPY src/covid-tracker-app-0.0.1-SNAPSHOT.jar covid-tracker-app-0.0.1-SNAPSHOT.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "/CovidTrackerAppApplication-0.0.1-SNAPSHOT.jar"]
+ENTRYPOINT ["java", "-jar", "/covid-tracker-app-0.0.1-SNAPSHOT.jar"]
