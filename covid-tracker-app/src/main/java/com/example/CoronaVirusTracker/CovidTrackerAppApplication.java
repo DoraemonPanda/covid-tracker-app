@@ -11,7 +11,6 @@ public class CovidTrackerAppApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CovidTrackerAppApplication.class, args); 
 		
-		
 	}
 
 }
